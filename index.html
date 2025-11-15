@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Duwal Ali – Cloud Engineer</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: #0f0f0f;
+        color: #fff;
+    }
+
+    /* Hero Section */
+    .hero {
+        height: 100vh;
+        background: linear-gradient(135deg, #10a6e9, #083c63, #000);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        animation: fadeIn 2s ease;
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+        margin: 0;
+        font-weight: 700;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+        opacity: 0.9;
+    }
+
+    .button {
+        background: #00b7ff;
+        padding: 12px 25px;
+        border-radius: 8px;
+        color: #000;
+        font-weight: bold;
+        text-decoration: none;
+        margin-top: 20px;
+        transition: 0.3s;
+    }
+
+    .button:hover {
+        background: #fff;
+        transform: scale(1.05);
+    }
+
+    /* About Section */
+    .about {
+        padding: 60px 20px;
+        max-width: 900px;
+        margin: auto;
+        line-height: 1.7;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 2.2rem;
+    }
+
+    /* Skills */
+    .skills {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    .skill-box {
+        background: #1b1b1b;
+        padding: 20px;
+        width: 200px;
+        margin: 10px;
+        border-radius: 12px;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .skill-box:hover {
+        background: #00b7ff;
+        cursor: pointer;
+        transform: scale(1.05);
+        color: #000;
+    }
+
+    /* Footer */
+    footer {
+        margin-top: 50px;
+        text-align: center;
+        padding: 20px;
+        background: #111;
+        font-size: 0.9rem;
+        opacity: 0.7;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+</style>
+</head>
+
+<body>
+
+<!-- Hero Section -->
+<div class="hero">
+    <h1>Hi, I'm <span style="color:#00d0ff;">Duwal Ali</span></h1>
+    <p>Cloud Engineer • Linux • AWS • GitHub Learner</p>
+    <a href="#about" class="button">Explore My World</a>
+</div>
+
+<!-- About Section -->
+<div class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate Cloud Engineer learning Linux, AWS, Git, and DevOps tools.
+        I troubleshoot servers, deploy applications, configure networks, and
+        support clients at Bharath Cloud. I love automation, scripting, and
+        learning new technologies every day.
+    </p>
+
+    <div class="skills">
+        <div class="skill-box">Linux</div>
+        <div class="skill-box">AWS Cloud</div>
+        <div class="skill-box">Shell Scripting</div>
+        <div class="skill-box">Git & GitHub</div>
+        <div class="skill-box">Troubleshooting</div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    © 2025 Duwal Ali — Made with ❤ using GitHub Pages
+</footer>
+
+</body>
+</html>
